@@ -4,6 +4,6 @@ const counter = document.getElementById("counter");
 
     incrementBtn.addEventListener("click", function () {
       const currentCount = parseInt(counter.textContent);
-      alert(`Current count: ${currentCount}`);
+      alert(`${currentCount}`);
       counter.textContent = currentCount + 1;
     });
